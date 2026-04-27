@@ -1,0 +1,48 @@
+/* about_me.css */
+
+body {
+    font-family: 'sans-serif'; /* Menggunakan font sesuai modul */
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    background-color: #f4f7f6;
+}
+
+section {
+    text-align: center;
+    border: solid 1px #2880b9;
+    padding: 20px;
+    width: 400px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.box {
+    background-color: #2880b9;
+    color: white;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.content {
+    text-align: justify; /* Agar teks deskripsi rapi */
+    margin-bottom: 20px;
+}
+
+/* Styling tombol Back/Home sesuai Gambar 10.15 di modul */
+.back {
+    margin-top: 5px;
+    background-color: #2880b9; /* Kode warna biru modul */
+    width: 70px;
+    height: 40px;
+    border: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    line-height: 40px;
+}
