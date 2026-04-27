@@ -1,0 +1,21 @@
+/* style.css */
+
+.box {
+    background-color: #2880b9; /* Menggunakan warna biru sesuai modul [cite: 202] */
+    color: white; /* Warna teks putih [cite: 197] */
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.pendaftaran {
+    background-color: #2880b9; /* [cite: 212] */
+    border: none; /* Menghilangkan border default [cite: 215] */
+    border-radius: 5px; /* Sudut melengkung [cite: 216] */
+    margin: 5px;
+    padding: 10px 20px;
+}
+
+.pendaftaran a {
+    color: white; /* Warna link putih [cite: 212] */
+    text-decoration: none; /* Menghilangkan garis bawah pada link [cite: 212] */
+}
