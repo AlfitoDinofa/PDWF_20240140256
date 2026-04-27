@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulir Biodata</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Formulir Biodata Mahasiswa</legend> [cite: 219]
+            
+            <p>Nama: <input type="text" name="nama" required></p> [cite: 219]
+            <p>Alamat: <input type="text" name="alamat"></p> [cite: 219]
+            
+            <p>Jenis Kelamin:
+                <input type="radio" name="jk" value="Laki-laki" checked> Laki-laki
+                <input type="radio" name="jk" value="Perempuan"> Perempuan
+            </p> [cite: 219]
+            
+            <p>Hobi:
+                <input type="checkbox" name="hobi" value="Coding"> Coding
+                <input type="checkbox" name="hobi" value="Membaca"> Membaca
+                <input type="checkbox" name="hobi" value="Olahraga"> Olahraga
+            </p> [cite: 219]
+            
+            <p>Kota Asal:
+                <select name="kota">
+                    <option value="Yogyakarta">Yogyakarta</option>
+                    <option value="Semarang">Semarang</option>
+                    <option value="Bandung">Bandung</option>
+                </select>
+            </p> [cite: 219]
+            
+            <p>Deskripsi Diri:<br>
+                <textarea rows="5" cols="40" placeholder="Ceritakan singkat tentang Anda..."></textarea>
+            </p> [cite: 219]
+            
+            <input type="submit" value="Submit"> [cite: 219]
+        </fieldset>
+    </form>
+    <br>
+    <button class="back"><a href="index.html">Kembali ke Home</a></button> [cite: 220]
+</body>
+</html>
